@@ -1,0 +1,494 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+}
+
+/* For Mobile */
+
+@media (max-width: 400px) {
+    body {
+
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+
+    }
+
+    /* Header Section */
+
+    #logo {
+        position: absolute;
+        left: 24px;
+        top: 27px;
+
+    }
+
+    .button-header {
+        position: absolute;
+        width: 151px;
+        height: 48px;
+        left: 200px;
+        top: 23px;
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        border: none;
+        /* identical to box height, or 162% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+        border-radius: 8px;
+
+    }
+
+    /* Main Section */
+
+    h1 {
+        position: absolute;
+        width: 327px;
+        height: 96px;
+        left: 24px;
+        top: 135px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+        margin-top: 0;
+    }
+
+    .description1 {
+        position: absolute;
+        width: 327px;
+        height: 78px;
+        left: 24px;
+        top: 263px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-top: 0;
+
+
+        color: #7B8BAD;
+    }
+
+    .final-div-des {
+        position: absolute;
+        width: 310px;
+        height: 48px;
+        left: 24px;
+        top: 373px;
+    }
+
+    .button-main {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        background: #F16718;
+        border-radius: 8px;
+        height: 48px;
+        width: 150px;
+        text-transform: uppercase;
+        color: #FFF;
+        border: none;
+    }
+
+    .date-release {
+        position: absolute;
+        height: 26px;
+        left: 58.71%;
+        right: 0.32%;
+        top: calc(50% - 26px/2);
+
+        font-family: Barlow;
+        font-style: normal;
+        /* font-weight: bold; */
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        text-transform: uppercase;
+
+        color: #7B8BAD;
+        margin-top: 0;
+    }
+
+    /* Images Section - Mobile */
+    .desktop-img {
+        display: none;
+    }
+
+    .tablet-img {
+        display: none;
+    }
+
+    .mobile-img{
+        
+    }
+
+    .desktop-box-right,
+    .desktop-box-left {
+        display: none;
+    }
+
+    #mobile-keyboard {
+        position: absolute;
+        width: 380px;
+        height: 331px;
+        left: 24px;
+        top: 485px;
+        border-radius: 15px;
+        right: 0;
+    }
+
+    .keyboard-phone{
+        
+        position: relative;
+        width: 129px;
+        height: 193px;
+        left: -22px;
+        top: 840px;
+        background: linear-gradient(
+            rgba(255, 0, 0, 0.45), 
+            rgba(255, 0, 0, 0.45)
+          ),url(assets/mobile/image-phone-and-keyboard.jpg);
+        
+        background-size: cover;  
+    }
+
+    #mobile-keyboard-phone {
+       display: none;
+    }
+
+    #mobile-keyboard-glass {
+        position: absolute;
+        width: 240px;
+        height: 193px;
+        left: 131px;
+        top: 840px;
+    }
+
+    /* H2 Section */
+
+    h2 {
+        position: absolute;
+        width: 255px;
+        height: 108px;
+        left: 60px;
+        top: 1108px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        /* or 112% */
+
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 0;
+
+        color: #162542;
+
+    }
+
+    .descripcion2 {
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 24px;
+        top: 1240px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+    }
+
+    /* Characteristics */
+
+    /* Characteristic 1 */
+    .characteristic1 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 155px;
+        top: 1455px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #compatible {
+        position: absolute;
+        width: 25.14px;
+        left: 21px;
+        top: 22px;
+    }
+
+    .charateristic-header-1 {
+        position: absolute;
+        width: 327px;
+        height: 56px;
+        left: 35px;
+        top: 1568px;
+        
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #162542;
+    }
+
+    .charateristic-description-1 {
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 35px;
+        top: 1648px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+    }
+
+    /* Characteristic 2 */
+    .characteristic2 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 155px;
+        top: 1816px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #bluetooth {
+        position: absolute;
+        width: 25.14px;
+        left: 21px;
+        top: 19px;
+        height: 27.86px;
+    }
+
+    .charateristic-header-2 {
+        position: absolute;
+        width: 327px;
+        height: 56px;
+        left: 35px;
+        top: 1929px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .charateristic-description-2 {
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 35px;
+        top: 2009px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+    }
+
+    /* Characteristic 3 */
+
+    .characteristic3 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 155px;
+        top: 2177px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #battery {
+        position: absolute;
+        width: 30px;
+        left: 19px;
+        top: 19px;
+        height: 25px;
+    }
+
+    .charateristic-header-3 {
+        position: absolute;
+        width: 327px;
+        height: 56px;
+        left: 35px;
+        top: 2290px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .charateristic-description-3 {
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 35px;
+        top: 2370px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+
+    }
+
+    /* Characteristic 4 */
+
+    .characteristic4 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 155px;
+        top: 2538px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #light {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 20px;
+        top: 20px;
+
+        background: #FFFFFF;
+    }
+
+    .charateristic-header-4 {
+        position: absolute;
+        width: 327px;
+        height: 56px;
+        left: 35px;
+        top: 2651px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #162542;
+
+
+    }
+
+    .charateristic-description-4 {
+        position: absolute;
+        width: 327px;
+        height: 104px;
+        left: 35px;
+        top: 2731px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+
+    }
+
+    .footer {
+        position: absolute;
+        width: 272px;
+        height: 26px;
+        left: 51px;
+        top: 2931px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        text-align: center;
+
+        color: #7B8BAD;
+    }
+
+}
