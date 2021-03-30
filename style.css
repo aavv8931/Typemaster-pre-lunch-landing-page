@@ -3,6 +3,174 @@ body {
     margin: 0;
 }
 
+.button-header {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+    color: #162542;
+    border: none;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.description1 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    color: #7B8BAD;
+}
+
+.button-main {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F16718;
+    border: none;
+    border-radius: 8px;
+}
+
+.date-release {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    text-transform: uppercase;
+    color: #7B8BAD;
+}
+
+.keyboard-phone {
+    background: linear-gradient(rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)), url(assets/mobile/image-phone-and-keyboard.jpg);
+
+    background-size: cover;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 112% */
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.descripcion2 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #7B8BAD;
+}
+
+/* Characteristics */
+
+
+.characteristic1,
+.characteristic2,
+.characteristic3, .characteristic4 {
+    background: #F16718;
+    border-radius: 16px;
+}
+
+.charateristic-header-1,
+.charateristic-header-2,
+.charateristic-header-3,
+.charateristic-header-4 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+    text-transform: uppercase;
+    color: #162542;
+}
+
+.charateristic-description-1,
+.charateristic-description-2,
+.charateristic-description-3,
+.charateristic-description-4 {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #7B8BAD;
+}
+
+/* Characteristic 1 */
+#compatible {
+    position: absolute;
+    width: 25.14px;
+    left: 21px;
+    top: 22px;
+}
+
+/* Characteristic 2 */
+#bluetooth {
+    position: absolute;
+    width: 25.14px;
+    left: 21px;
+    top: 19px;
+    height: 27.86px;
+}
+
+/* Characteristic 3 */
+
+#battery {
+    position: absolute;
+    width: 30px;
+    left: 19px;
+    top: 19px;
+    height: 25px;
+}
+
+/* Characteristic 4 */
+
+#light {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 20px;
+    top: 20px;
+}
+
+.footer {
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    color: #7B8BAD;
+}
+
 /* For Mobile */
 
 @media (max-width: 400px) {
@@ -22,19 +190,6 @@ body {
         height: 48px;
         left: 200px;
         top: 23px;
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        border: none;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-        border-radius: 8px;
-
     }
 
     /* Main Section */
@@ -45,17 +200,9 @@ body {
         height: 96px;
         left: 24px;
         top: 135px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
         font-size: 48px;
         line-height: 48px;
         /* or 100% */
-
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 0;
     }
 
@@ -65,17 +212,10 @@ body {
         height: 78px;
         left: 24px;
         top: 263px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 26px;
         /* or 162% */
         margin-top: 0;
-
-
-        color: #7B8BAD;
     }
 
     .final-div-des {
@@ -92,14 +232,8 @@ body {
         right: 0%;
         top: 0%;
         bottom: 0%;
-
-        background: #F16718;
-        border-radius: 8px;
         height: 48px;
         width: 150px;
-        text-transform: uppercase;
-        color: #FFF;
-        border: none;
     }
 
     .date-release {
@@ -108,18 +242,8 @@ body {
         left: 58.71%;
         right: 0.32%;
         top: calc(50% - 26px/2);
-
-        font-family: Barlow;
-        font-style: normal;
-        /* font-weight: bold; */
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #7B8BAD;
         margin-top: 0;
+        width: 130px;
     }
 
     /* Images Section - Mobile */
@@ -148,11 +272,6 @@ body {
         height: 193px;
         left: -22px;
         top: 840px;
-        background: linear-gradient(rgba(255, 0, 0, 0.45),
-                rgba(255, 0, 0, 0.45)), url(assets/mobile/image-phone-and-keyboard.jpg);
-
-        background-size: cover;
-        border-radius: 20px;
     }
 
     #mobile-keyboard-glass {
@@ -170,21 +289,10 @@ body {
         position: absolute;
         width: 255px;
         height: 108px;
-        left: 60px;
+        left: 68px;
         top: 1108px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
-        /* or 112% */
-
-        text-align: center;
-        text-transform: uppercase;
         margin-top: 0;
-
-        color: #162542;
+        text-align: center;
 
     }
 
@@ -194,17 +302,7 @@ body {
         height: 104px;
         left: 24px;
         top: 1240px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
         text-align: center;
-
-        color: #7B8BAD;
     }
 
     /* Characteristics */
@@ -216,17 +314,9 @@ body {
         height: 65px;
         left: 155px;
         top: 1455px;
-
-        background: #F16718;
-        border-radius: 16px;
     }
 
-    #compatible {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 22px;
-    }
+
 
     .charateristic-header-1 {
         position: absolute;
@@ -234,18 +324,7 @@ body {
         height: 56px;
         left: 35px;
         top: 1568px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
         text-align: center;
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .charateristic-description-1 {
@@ -254,17 +333,7 @@ body {
         height: 104px;
         left: 35px;
         top: 1648px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
         text-align: center;
-
-        color: #7B8BAD;
     }
 
     /* Characteristic 2 */
@@ -274,17 +343,6 @@ body {
         height: 65px;
         left: 155px;
         top: 1816px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #bluetooth {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 19px;
-        height: 27.86px;
     }
 
     .charateristic-header-2 {
@@ -293,18 +351,7 @@ body {
         height: 56px;
         left: 35px;
         top: 1929px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
         text-align: center;
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .charateristic-description-2 {
@@ -313,17 +360,7 @@ body {
         height: 104px;
         left: 35px;
         top: 2009px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
         text-align: center;
-
-        color: #7B8BAD;
     }
 
     /* Characteristic 3 */
@@ -334,18 +371,9 @@ body {
         height: 65px;
         left: 155px;
         top: 2177px;
-
-        background: #F16718;
-        border-radius: 16px;
     }
 
-    #battery {
-        position: absolute;
-        width: 30px;
-        left: 19px;
-        top: 19px;
-        height: 25px;
-    }
+
 
     .charateristic-header-3 {
         position: absolute;
@@ -353,18 +381,7 @@ body {
         height: 56px;
         left: 35px;
         top: 2290px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
         text-align: center;
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .charateristic-description-3 {
@@ -373,18 +390,6 @@ body {
         height: 104px;
         left: 35px;
         top: 2370px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-        text-align: center;
-
-        color: #7B8BAD;
-
     }
 
     /* Characteristic 4 */
@@ -395,19 +400,6 @@ body {
         height: 65px;
         left: 155px;
         top: 2538px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #light {
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        left: 20px;
-        top: 20px;
-
-        background: #FFFFFF;
     }
 
     .charateristic-header-4 {
@@ -416,20 +408,7 @@ body {
         height: 56px;
         left: 35px;
         top: 2651px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
         text-align: center;
-        text-transform: uppercase;
-
-        color: #162542;
-
-
     }
 
     .charateristic-description-4 {
@@ -438,18 +417,6 @@ body {
         height: 104px;
         left: 35px;
         top: 2731px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-        text-align: center;
-
-        color: #7B8BAD;
-
     }
 
     .footer {
@@ -473,6 +440,8 @@ body {
 
 }
 
+/* For Tablet */
+
 @media (min-width: 401px) and (max-width: 750px) {
 
     /* Header Section */
@@ -492,19 +461,6 @@ body {
         height: 58px;
         left: 700px;
         top: 40px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-        border-radius: 8px;
-        border: none;
     }
 
     /* Main Section */
@@ -515,18 +471,9 @@ body {
         height: 96px;
         left: 39px;
         top: 220px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
         font-size: 48px;
         line-height: 48px;
         /* or 100% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-
         margin: 0;
     }
 
@@ -536,17 +483,9 @@ body {
         height: 78px;
         left: 39px;
         top: 350px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
         font-size: 16px;
         line-height: 26px;
         /* or 162% */
-
-
-        color: #7B8BAD;
-
     }
 
     .button-main {
@@ -555,21 +494,6 @@ body {
         height: 58px;
         left: 39px;
         top: 467px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #FFFFFF;
-        background: #F16718;
-        border: none;
-        border-radius: 8px;
-
     }
 
     .date-release {
@@ -578,17 +502,6 @@ body {
         height: 26px;
         left: 251px;
         top: 483px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #7B8BAD;
         margin-top: 0;
 
     }
@@ -618,11 +531,7 @@ body {
         height: 320px;
         left: 39px;
         top: 625px;
-        background: linear-gradient(rgba(255, 0, 0, 0.45),
-                rgba(255, 0, 0, 0.45)), url(assets/mobile/image-phone-and-keyboard.jpg);
 
-        background-size: cover;
-        border-radius: 20px;
     }
 
     #tablet-keyboard-glass {
@@ -643,16 +552,7 @@ body {
         left: 39px;
         top: 1017px;
 
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
-        /* or 112% */
 
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 13px;
     }
 
@@ -662,14 +562,6 @@ body {
         height: 78px;
         left: 370px;
         top: 1032px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-        color: #7B8BAD;
     }
 
     /* Characteristics */
@@ -682,16 +574,6 @@ body {
         height: 65px;
         left: 39px;
         top: 1267px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #compatible {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 22px;
     }
 
     .charateristic-header-1 {
@@ -700,18 +582,10 @@ body {
         height: 56px;
         left: 39px;
         top: 1372px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 0;
+
+
+
     }
 
     .charateristic-description-1 {
@@ -720,17 +594,6 @@ body {
         height: 104px;
         left: 39px;
         top: 1440px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
-
     }
 
     /* Characteristic 2 */
@@ -741,17 +604,6 @@ body {
         height: 65px;
         left: 430px;
         top: 1267px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #bluetooth {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 19px;
-        height: 27.86px;
     }
 
     .charateristic-header-2 {
@@ -760,19 +612,7 @@ body {
         height: 56px;
         left: 430px;
         top: 1372px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 0;
-
     }
 
     .charateristic-description-2 {
@@ -781,16 +621,6 @@ body {
         height: 104px;
         left: 430px;
         top: 1440px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
     }
 
     /* Characteristic 3 */
@@ -801,17 +631,6 @@ body {
         height: 65px;
         left: 39px;
         top: 1628px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #battery {
-        position: absolute;
-        width: 30px;
-        left: 19px;
-        top: 19px;
-        height: 25px;
     }
 
     .charateristic-header-3 {
@@ -820,17 +639,6 @@ body {
         height: 56px;
         left: 39px;
         top: 1733px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 0;
     }
 
@@ -840,17 +648,6 @@ body {
         height: 104px;
         left: 39px;
         top: 1800px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
-
     }
 
 
@@ -862,19 +659,6 @@ body {
         height: 65px;
         left: 430px;
         top: 1628px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #light {
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        left: 20px;
-        top: 20px;
-
-        background: #FFFFFF;
     }
 
     .charateristic-header-4 {
@@ -883,17 +667,6 @@ body {
         height: 56px;
         left: 430px;
         top: 1733px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
         margin-top: 0;
     }
 
@@ -903,16 +676,6 @@ body {
         height: 104px;
         left: 430px;
         top: 1800px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
     }
 
     .footer {
@@ -921,19 +684,11 @@ body {
         height: 26px;
         left: 330px;
         top: 2000px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-
-        color: #7B8BAD;
     }
 
 }
+
+/* For Desktop */
 
 @media (min-width: 751px) and (max-width: 1366px) {
 
@@ -945,7 +700,6 @@ body {
         height: 40px;
         left: 165px;
         top: 64px;
-
         background: #F16718;
     }
 
@@ -955,25 +709,11 @@ body {
         height: 58px;
         left: 1050px;
         top: 55px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-        border: none;
-        border-radius: 8px;
-
     }
 
-    .button-header:hover{
-       background: #162542;
-       color: #FFF;
+    .button-header:hover {
+        background: #162542;
+        color: #FFF;
     }
 
     /* Main Section */
@@ -984,17 +724,9 @@ body {
         height: 312px;
         left: 165px;
         top: 256px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
         font-size: 56px;
         line-height: 56px;
         /* or 100% */
-
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .description1 {
@@ -1003,18 +735,9 @@ body {
         height: 312px;
         left: 165px;
         top: 425px;
-
-
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
         font-size: 18px;
         line-height: 26px;
         /* or 144% */
-
-
-        color: #7B8BAD;
     }
 
     .button-main {
@@ -1023,14 +746,11 @@ body {
         height: 58px;
         left: 165px;
         top: 560px;
-
-        background: #F16718;
-        border-radius: 8px;
-        border: none;
     }
 
-    .button-main:hover{
-        background: #FF9B62;;
+    .button-main:hover {
+        background: #FF9B62;
+        ;
     }
 
     .date-release {
@@ -1039,17 +759,6 @@ body {
         height: 58px;
         left: 450px;
         top: 560px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-        text-transform: uppercase;
-
-        color: #7B8BAD;
     }
 
     /* Images Section - Table */
@@ -1067,10 +776,7 @@ body {
         height: 480px;
         left: 685px;
         top: 196px;
-        
-
         border-radius: 20px;
-
     }
 
     .desktop-box-right {
@@ -1081,7 +787,6 @@ body {
         left: 1270px;
         top: 196px;
         right: 0;
-       
     }
 
     .desktop-box-left {
@@ -1092,19 +797,12 @@ body {
         top: 950px;
     }
 
-
-
     .keyboard-phone {
         position: absolute;
         width: 255px;
         height: 480px;
         left: 165px;
         top: 706px;
-        background: linear-gradient(rgba(255, 0, 0, 0.45),
-                rgba(255, 0, 0, 0.45)), url(assets/mobile/image-phone-and-keyboard.jpg);
-
-        background-size: cover;
-        border-radius: 20px;
     }
 
     #desktop-keyboard-glass {
@@ -1125,17 +823,6 @@ body {
         height: 108px;
         left: 1020px;
         top: 818px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
-        /* or 112% */
-
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .descripcion2 {
@@ -1144,16 +831,6 @@ body {
         height: 130px;
         left: 1020px;
         top: 953px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
     }
 
 
@@ -1167,16 +844,6 @@ body {
         height: 65px;
         left: 165px;
         top: 1354px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #compatible {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 22px;
     }
 
     .charateristic-header-1 {
@@ -1185,17 +852,6 @@ body {
         height: 56px;
         left: 165px;
         top: 1467px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .charateristic-description-1 {
@@ -1204,16 +860,6 @@ body {
         height: 130px;
         left: 165px;
         top: 1547px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
     }
 
     /* Characteristic 2 */
@@ -1224,17 +870,6 @@ body {
         height: 65px;
         left: 450px;
         top: 1354px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #bluetooth {
-        position: absolute;
-        width: 25.14px;
-        left: 21px;
-        top: 19px;
-        height: 27.86px;
     }
 
     .charateristic-header-2 {
@@ -1243,18 +878,6 @@ body {
         height: 56px;
         left: 450px;
         top: 1467px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-
     }
 
     .charateristic-description-2 {
@@ -1263,17 +886,6 @@ body {
         height: 130px;
         left: 450px;
         top: 1547px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
-
     }
 
     /* Characteristic 3 */
@@ -1284,17 +896,6 @@ body {
         height: 65px;
         left: 735px;
         top: 1354px;
-
-        background: #F16718;
-        border-radius: 16px
-    }
-
-    #battery {
-        position: absolute;
-        width: 30px;
-        left: 19px;
-        top: 19px;
-        height: 25px;
     }
 
     .charateristic-header-3 {
@@ -1304,17 +905,6 @@ body {
         height: 56px;
         left: 735px;
         top: 1467px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
     }
 
     .charateristic-description-3 {
@@ -1323,16 +913,6 @@ body {
         height: 130px;
         left: 735px;
         top: 1547px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
     }
 
     /* Characteristic 4 */
@@ -1343,17 +923,6 @@ body {
         height: 65px;
         left: 1020px;
         top: 1354px;
-
-        background: #F16718;
-        border-radius: 16px;
-    }
-
-    #light {
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        left: 20px;
-        top: 20px;
     }
 
     .charateristic-header-4 {
@@ -1362,18 +931,6 @@ body {
         height: 56px;
         left: 1020px;
         top: 1467px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 28px;
-        /* or 117% */
-
-        text-transform: uppercase;
-
-        color: #162542;
-
     }
 
     .charateristic-description-4 {
@@ -1382,17 +939,6 @@ body {
         height: 130px;
         left: 1020px;
         top: 1547px;
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* or 162% */
-
-
-        color: #7B8BAD;
-
     }
 
     /* Footer */
@@ -1403,38 +949,5 @@ body {
         height: 26px;
         left: 550px;
         top: 1805px;
-
-
-        font-family: Barlow;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-
-
-        color: #7B8BAD;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
