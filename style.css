@@ -935,8 +935,506 @@ body {
 
 }
 
-@media (min-width: 751px) and (max-width: 1400px){
+@media (min-width: 751px) and (max-width: 1366px) {
 
 
-    
+    /* Header Section */
+    #logo {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 165px;
+        top: 64px;
+
+        background: #F16718;
+    }
+
+    .button-header {
+        position: absolute;
+        width: 175px;
+        height: 58px;
+        left: 1050px;
+        top: 55px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+        border: none;
+        border-radius: 8px;
+
+    }
+
+    .button-header:hover{
+       background: #162542;
+       color: #FFF;
+    }
+
+    /* Main Section */
+
+    h1 {
+        position: absolute;
+        width: 445px;
+        height: 312px;
+        left: 165px;
+        top: 256px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 56px;
+        /* or 100% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .description1 {
+        position: absolute;
+        width: 445px;
+        height: 312px;
+        left: 165px;
+        top: 425px;
+
+
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        /* or 144% */
+
+
+        color: #7B8BAD;
+    }
+
+    .button-main {
+        position: absolute;
+        width: 175px;
+        height: 58px;
+        left: 165px;
+        top: 560px;
+
+        background: #F16718;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .button-main:hover{
+        background: #FF9B62;;
+    }
+
+    .date-release {
+        position: absolute;
+        width: 175px;
+        height: 58px;
+        left: 450px;
+        top: 560px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        text-transform: uppercase;
+
+        color: #7B8BAD;
+    }
+
+    /* Images Section - Table */
+
+    .tablet-img,
+    .mobile-img,
+    #desktop-keyboard-phone,
+    #box-right {
+        display: none;
+    }
+
+    #desktop-keyboard {
+        position: absolute;
+        width: 540px;
+        height: 480px;
+        left: 685px;
+        top: 196px;
+        
+
+        border-radius: 20px;
+
+    }
+
+    .desktop-box-right {
+        background-image: url(assets/shared/pattern-square.svg);
+        position: absolute;
+        width: 79px;
+        height: 240px;
+        left: 1270px;
+        top: 196px;
+        right: 0;
+       
+    }
+
+    .desktop-box-left {
+        position: absolute;
+        width: 255px;
+        height: 236px;
+        left: -120px;
+        top: 950px;
+    }
+
+
+
+    .keyboard-phone {
+        position: absolute;
+        width: 255px;
+        height: 480px;
+        left: 165px;
+        top: 706px;
+        background: linear-gradient(rgba(255, 0, 0, 0.45),
+                rgba(255, 0, 0, 0.45)), url(assets/mobile/image-phone-and-keyboard.jpg);
+
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    #desktop-keyboard-glass {
+        position: absolute;
+        width: 445px;
+        height: 480px;
+        left: 450px;
+        top: 706px;
+        border-radius: 20px;
+
+    }
+
+    /* H2 Section */
+
+    h2 {
+        position: absolute;
+        width: 255px;
+        height: 108px;
+        left: 1020px;
+        top: 818px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        /* or 112% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .descripcion2 {
+        position: absolute;
+        width: 255px;
+        height: 130px;
+        left: 1020px;
+        top: 953px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #7B8BAD;
+    }
+
+
+    /* Characteristics */
+
+    /* Characteristic 1 */
+
+    .characteristic1 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 165px;
+        top: 1354px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #compatible {
+        position: absolute;
+        width: 25.14px;
+        left: 21px;
+        top: 22px;
+    }
+
+    .charateristic-header-1 {
+        position: absolute;
+        width: 255px;
+        height: 56px;
+        left: 165px;
+        top: 1467px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .charateristic-description-1 {
+        position: absolute;
+        width: 255px;
+        height: 130px;
+        left: 165px;
+        top: 1547px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #7B8BAD;
+    }
+
+    /* Characteristic 2 */
+
+    .characteristic2 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 450px;
+        top: 1354px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #bluetooth {
+        position: absolute;
+        width: 25.14px;
+        left: 21px;
+        top: 19px;
+        height: 27.86px;
+    }
+
+    .charateristic-header-2 {
+        position: absolute;
+        width: 255px;
+        height: 56px;
+        left: 450px;
+        top: 1467px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+
+    }
+
+    .charateristic-description-2 {
+        position: absolute;
+        width: 255px;
+        height: 130px;
+        left: 450px;
+        top: 1547px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #7B8BAD;
+
+    }
+
+    /* Characteristic 3 */
+
+    .characteristic3 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 735px;
+        top: 1354px;
+
+        background: #F16718;
+        border-radius: 16px
+    }
+
+    #battery {
+        position: absolute;
+        width: 30px;
+        left: 19px;
+        top: 19px;
+        height: 25px;
+    }
+
+    .charateristic-header-3 {
+
+        position: absolute;
+        width: 255px;
+        height: 56px;
+        left: 735px;
+        top: 1467px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+    }
+
+    .charateristic-description-3 {
+        position: absolute;
+        width: 255px;
+        height: 130px;
+        left: 735px;
+        top: 1547px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #7B8BAD;
+    }
+
+    /* Characteristic 4 */
+
+    .characteristic4 {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        left: 1020px;
+        top: 1354px;
+
+        background: #F16718;
+        border-radius: 16px;
+    }
+
+    #light {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 20px;
+        top: 20px;
+    }
+
+    .charateristic-header-4 {
+        position: absolute;
+        width: 255px;
+        height: 56px;
+        left: 1020px;
+        top: 1467px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        /* or 117% */
+
+        text-transform: uppercase;
+
+        color: #162542;
+
+    }
+
+    .charateristic-description-4 {
+        position: absolute;
+        width: 255px;
+        height: 130px;
+        left: 1020px;
+        top: 1547px;
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        color: #7B8BAD;
+
+    }
+
+    /* Footer */
+
+    .footer {
+        position: absolute;
+        width: 300px;
+        height: 26px;
+        left: 550px;
+        top: 1805px;
+
+
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+
+        color: #7B8BAD;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
