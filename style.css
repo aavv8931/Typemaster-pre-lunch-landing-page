@@ -962,7 +962,7 @@ h2 {
         position: absolute;
         width: 50px;
         height: 50px;
-        left: 230px;
+        left: 300px;
         top: 64px;
         background: #F16718;
     }
@@ -971,7 +971,7 @@ h2 {
         position: absolute;
         width: 175px;
         height: 58px;
-        left: 1215px;
+        left: 1500px;
         top: 55px;
     }
 
@@ -986,7 +986,7 @@ h2 {
         position: absolute;
         width: 445px;
         height: 312px;
-        left: 230px;
+        left: 300px;
         top: 256px;
         font-size: 56px;
         line-height: 56px;
@@ -997,7 +997,7 @@ h2 {
         position: absolute;
         width: 445px;
         height: 312px;
-        left: 230px;
+        left: 300px;
         top: 425px;
         font-size: 18px;
         line-height: 26px;
@@ -1008,7 +1008,7 @@ h2 {
         position: absolute;
         width: 175px;
         height: 58px;
-        left: 230px;
+        left: 300px;
         top: 560px;
     }
 
@@ -1021,7 +1021,7 @@ h2 {
         position: absolute;
         width: 175px;
         height: 58px;
-        left: 500px;
+        left: 570px;
         top: 560px;
     }
 
@@ -1036,9 +1036,9 @@ h2 {
 
     #desktop-keyboard {
         position: absolute;
-        width: 600px;
+        width: 675px;
         height: 480px;
-        left: 790px;
+        left: 1000px;
         top: 196px;
         border-radius: 20px;
     }
@@ -1046,34 +1046,34 @@ h2 {
     .desktop-box-right {
         background-image: url(assets/shared/pattern-square.svg);
         position: absolute;
-        width: 95px;
+        width: 170px;
         height: 240px;
-        left: 1430px;
+        left: 1750px;
         top: 196px;
         right: 0;
     }
 
     .desktop-box-left {
         position: absolute;
-        width: 255px;
+        width: 300px;
         height: 236px;
-        left: -100px;
+        left: -50px;
         top: 950px;
     }
 
     .keyboard-phone {
         position: absolute;
-        width: 255px;
+        width: 300px;
         height: 480px;
-        left: 230px;
+        left: 300px;
         top: 706px;
     }
 
     #desktop-keyboard-glass {
         position: absolute;
-        width: 445px;
+        width: 600px;
         height: 480px;
-        left: 550px;
+        left: 680px;
         top: 706px;
         border-radius: 20px;
 
@@ -1085,7 +1085,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 108px;
-        left: 1100px;
+        left: 1400px;
         top: 818px;
     }
 
@@ -1093,7 +1093,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 130px;
-        left: 1100px;
+        left: 1400px;
         top: 953px;
     }
 
@@ -1106,7 +1106,7 @@ h2 {
         position: absolute;
         width: 65px;
         height: 65px;
-        left: 230px;
+        left: 300px;
         top: 1354px;
     }
 
@@ -1114,7 +1114,7 @@ h2 {
         position: absolute;
         width: 200px;
         height: 56px;
-        left: 230px;
+        left: 300px;
         top: 1467px;
     }
 
@@ -1122,7 +1122,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 130px;
-        left: 230px;
+        left: 300px;
         top: 1547px;
     }
 
@@ -1132,7 +1132,7 @@ h2 {
         position: absolute;
         width: 65px;
         height: 65px;
-        left: 520px;
+        left: 640px;
         top: 1354px;
     }
 
@@ -1140,7 +1140,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 56px;
-        left: 520px;
+        left: 640px;
         top: 1467px;
     }
 
@@ -1148,7 +1148,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 130px;
-        left: 520px;
+        left: 640px;
         top: 1547px;
     }
 
@@ -1158,7 +1158,7 @@ h2 {
         position: absolute;
         width: 65px;
         height: 65px;
-        left: 785px;
+        left: 950px;
         top: 1354px;
     }
 
@@ -1167,7 +1167,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 56px;
-        left: 785px;
+        left: 950px;
         top: 1467px;
     }
 
@@ -1175,7 +1175,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 130px;
-        left: 785px;
+        left: 950px;
         top: 1547px;
     }
 
@@ -1185,7 +1185,7 @@ h2 {
         position: absolute;
         width: 65px;
         height: 65px;
-        left: 1100px;
+        left: 1300px;
         top: 1354px;
     }
 
@@ -1193,7 +1193,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 56px;
-        left: 1100px;
+        left: 1300px;
         top: 1467px;
     }
 
@@ -1201,7 +1201,7 @@ h2 {
         position: absolute;
         width: 255px;
         height: 130px;
-        left: 1100px;
+        left: 1300px;
         top: 1547px;
     }
 
